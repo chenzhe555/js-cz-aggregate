@@ -1,0 +1,11 @@
+{
+    "name": "js-cz-aggregate",
+    "version": "0.0.1",
+    "main": "index.js",
+    "repository": "https://github.com/chenzhe555/js-cz-aggregate",
+    "author": "chenzhe@meicai.cn <chenzhe@meicai.cn>",
+    "license": "MIT",
+    "dependencies": {
+        "axios": "0.19.0"
+    }
+}
