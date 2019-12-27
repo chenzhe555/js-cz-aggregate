@@ -7,7 +7,7 @@ export default class HttpRequest {
      * @param {object} data 请求数据
      * @param {object} header 请求头
      */
-    async post(url = '', data = {}, headers = {}) {
+    static async post(url = '', data = {}, headers = {}) {
         let result = null;
         if (url.length > 0) {
             try {
