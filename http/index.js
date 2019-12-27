@@ -1,29 +1,6 @@
 import axios from 'axios';
 
 export default class HttpRequest {
-    constructor() {
-        // 请求唯一id
-        this.rID = 0;
-        // url地址异常返回的错误数据结构
-        this.urlEmptyError = {
-            'ret': 0,
-            'error': {
-                'code': 0,
-                'msg': 'url为空'
-            }
-        };
-    }
-
-    /**
-     * 请求单例
-     */
-    static getInstance() {
-        if (!this.instance) {
-            this.instance = new this();
-        }
-        return this.instance;
-    }
-
     /**
      * POST请求
      * @param {string} url 请求地址
