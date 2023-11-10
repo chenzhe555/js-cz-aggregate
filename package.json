@@ -6,7 +6,7 @@
     "author": "chenzhe@meicai.cn <chenzhe@meicai.cn>",
     "license": "MIT",
     "dependencies": {
-        "axios": "0.19.0",
+        "axios": "1.6.0",
         "eventbusjs": "0.2.0"
     }
 }
